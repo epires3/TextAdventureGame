@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Adventure
+
 {
     class Item
     {
@@ -14,8 +15,7 @@ namespace Adventure
         private int weight;
 
         public string Title { get { return title; } set { title = value; } }
-        public string Desc { get { return desc; } set { desc = value; } }
-        public int Qnt { get { return qnt; } set { qnt = value; } }
+
         public int Weight { get { return weight; } set { weight = value; } }
 
         public Item() { Title = ""; Desc = ""; Qnt = 0; Weight = 0; }
@@ -26,5 +26,6 @@ namespace Adventure
             Qnt = q;
             Weight = w;
         }
+
     }
 }
